@@ -5,7 +5,7 @@
 Place your fine-tuned Ultralytics YOLO11s object detection weights in this directory with the exact filename:
 
 ```text
-SmartPlate-AI/models/fridge_to_plate_yolo11s.pt
+Fridge2Food/models/fridge_to_plate_yolo11s.pt
 ```
 
 > **Important:** No placeholder or fabricated `.pt` file is included in this repository. The FastAPI inference service loads `fridge_to_plate_yolo11s.pt` directly from this path (or the path configured in `MODEL_PATH`) during application startup.

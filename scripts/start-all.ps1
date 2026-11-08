@@ -2,7 +2,7 @@
 .SYNOPSIS
     Starts all three Fridge2Food services (FastAPI Inference Service, Express Backend, and React Vite Frontend) in separate Windows PowerShell terminals.
 .DESCRIPTION
-    Run from the root of the SmartPlate-AI directory:
+    Run from the root of the Fridge2Food directory:
     .\scripts\start-all.ps1
 #>
 

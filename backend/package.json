@@ -1,5 +1,5 @@
 {
-  "name": "smartplate-ai-backend",
+  "name": "fridge2food-backend",
   "version": "1.0.0",
   "description": "Fridge2Food — Node.js & Express Main Backend with Session Storage, FastAPI Bridge, and Two-Stage Gemini API Integration",
   "main": "src/server.js",
