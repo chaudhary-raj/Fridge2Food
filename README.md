@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fridge2Food — Turn Your Ingredients Into Something Delicious
 
 Fridge2Food is a complete, production-minded full-stack web application that detects food ingredients from uploaded photos using your fine-tuned **Ultralytics YOLO11s** object detection model (`fridge_to_plate_yolo11s.pt`) and generates personalized recipes and interactive step-by-step cooking guides using a **Two-Stage Gemini API** architecture.
@@ -406,3 +407,6 @@ cd ..
 | `GEMINI_API_KEY is missing or set to the placeholder value` | `backend/.env` still has `your_gemini_api_key_here`. | Paste your real Gemini API key into `backend/.env` and restart `npm start` in `backend/`. |
 | `CUDA requested (cuda:0) but torch.cuda.is_available() is False` | PyTorch CPU build is installed or no NVIDIA GPU is present. | Leave `INFERENCE_DEVICE=auto` or set `INFERENCE_DEVICE=cpu` in `inference-service/.env`. |
 | PowerShell `Activate.ps1 cannot be loaded because running scripts is disabled` | Windows PowerShell default execution policy restriction. | Run `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` in PowerShell, then re-run `.\.venv\Scripts\Activate.ps1`. |
+=======
+# Fridge2Food
+>>>>>>> 1176bbabbc84e6074691b15492e1aef6c44a92a1
